@@ -149,7 +149,7 @@ namespace OpenXmlPowerTools
             SimplifyMarkupSettings simplifyMarkupSettings = new SimplifyMarkupSettings
             {
                 RemoveComments = true,
-                RemoveContentControls = true,
+                RemoveContentControls = false,
                 RemoveEndAndFootNotes = true,
                 RemoveFieldCodes = false,
                 RemoveLastRenderedPageBreak = true,
